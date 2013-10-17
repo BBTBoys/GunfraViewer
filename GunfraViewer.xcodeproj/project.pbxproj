@@ -48,6 +48,8 @@
 		8971B17F17F8841900BC6B33 /* GunfraViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GunfraViewerTests-Info.plist"; sourceTree = "<group>"; };
 		8971B18117F8841900BC6B33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8971B18317F8841900BC6B33 /* GunfraViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GunfraViewerTests.m; sourceTree = "<group>"; };
+		9E4F0191180FA97200AE7A4D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E4F0192180FA97200AE7A4D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +207,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ko,
 			);
 			mainGroup = 8971B15217F8841800BC6B33;
 			productRefGroup = 8971B15C17F8841800BC6B33 /* Products */;
@@ -270,6 +273,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8971B16817F8841800BC6B33 /* en */,
+				9E4F0191180FA97200AE7A4D /* ko */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -278,6 +282,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8971B18117F8841900BC6B33 /* en */,
+				9E4F0192180FA97200AE7A4D /* ko */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -446,6 +451,7 @@
 				8971B18917F8841900BC6B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8971B18A17F8841900BC6B33 /* Build configuration list for PBXNativeTarget "GunfraViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +460,7 @@
 				8971B18C17F8841900BC6B33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
