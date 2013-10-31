@@ -19,6 +19,8 @@
 		8971B17A17F8841900BC6B33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8971B16217F8841800BC6B33 /* UIKit.framework */; };
 		8971B18217F8841900BC6B33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8971B18017F8841900BC6B33 /* InfoPlist.strings */; };
 		8971B18417F8841900BC6B33 /* GunfraViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8971B18317F8841900BC6B33 /* GunfraViewerTests.m */; };
+		D8E6C7211821E3C6000FA013 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E6C7201821E3C6000FA013 /* MainStoryboard.storyboard */; };
+		D8E6C7271821E4EB000FA013 /* theO.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E6C7261821E4EB000FA013 /* theO.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		8971B18317F8841900BC6B33 /* GunfraViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GunfraViewerTests.m; sourceTree = "<group>"; };
 		9E4F0191180FA97200AE7A4D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E4F0192180FA97200AE7A4D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8E6C7201821E3C6000FA013 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Storyboard/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D8E6C7261821E4EB000FA013 /* theO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theO.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		8971B15217F8841800BC6B33 = {
 			isa = PBXGroup;
 			children = (
+				D8E6C7221821E476000FA013 /* Resources */,
 				8971B16417F8841800BC6B33 /* GunfraViewer */,
 				8971B17D17F8841900BC6B33 /* GunfraViewerTests */,
 				8971B15D17F8841800BC6B33 /* Frameworks */,
@@ -113,6 +118,7 @@
 				8971B16E17F8841900BC6B33 /* AppDelegate.m */,
 				8971B17017F8841900BC6B33 /* Images.xcassets */,
 				8971B16517F8841800BC6B33 /* Supporting Files */,
+				D8E6C7201821E3C6000FA013 /* MainStoryboard.storyboard */,
 			);
 			path = GunfraViewer;
 			sourceTree = "<group>";
@@ -144,6 +150,22 @@
 				8971B18017F8841900BC6B33 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8E6C7221821E476000FA013 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6C7231821E476000FA013 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8E6C7231821E476000FA013 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D8E6C7261821E4EB000FA013 /* theO.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,8 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E6C7211821E3C6000FA013 /* MainStoryboard.storyboard in Resources */,
 				8971B16917F8841800BC6B33 /* InfoPlist.strings in Resources */,
 				8971B17117F8841900BC6B33 /* Images.xcassets in Resources */,
+				D8E6C7271821E4EB000FA013 /* theO.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
